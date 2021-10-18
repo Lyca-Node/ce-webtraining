@@ -1,0 +1,20 @@
+{
+  "DELETED": {
+    "cdb_op_owner": [
+      {
+        "PRIMARY_KEYS": {
+          "classname": "cdbvp_product", 
+          "name": "cdbvp_product", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "classname": "cdbvp_product", 
+          "name": "cdbvp_product_view", 
+          "role_id": "public"
+        }
+      }
+    ]
+  }
+}

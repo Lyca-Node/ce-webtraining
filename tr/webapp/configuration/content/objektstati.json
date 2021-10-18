@@ -1,0 +1,12 @@
+{
+  "objektstati": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objektart": "cst_ticket", "statusnummer": 0}, "DATA": {"activity_enable_post_batch": 0, "activity_enable_post_interact": 0, "activity_wfstep_label": "", "cdb_module_id": "tr.webapp", "statusbemerk": "", "statusbez_cs": "", "statusbez_de": "Neu", "statusbez_en": "New", "statusbez_es": "", "statusbez_fr": "", "statusbez_it": "", "statusbez_ja": "", "statusbez_ko": "", "statusbez_pl": "", "statusbez_pt": "", "statusbez_tr": "", "statusbez_zh": "", "statusbezeich": "new", "statusfarbe": "CE_Gray_Lst", "statusrelease": 0}},
+      {"PRIMARY_KEYS": {"objektart": "cst_ticket", "statusnummer": 100}, "DATA": {"activity_enable_post_batch": 0, "activity_enable_post_interact": 0, "activity_wfstep_label": "", "cdb_module_id": "tr.webapp", "statusbemerk": "", "statusbez_cs": "", "statusbez_de": "Offen", "statusbez_en": "Open", "statusbez_es": "", "statusbez_fr": "", "statusbez_it": "", "statusbez_ja": "", "statusbez_ko": "", "statusbez_pl": "", "statusbez_pt": "", "statusbez_tr": "", "statusbez_zh": "", "statusbezeich": "open", "statusfarbe": "CE_Info", "statusrelease": 0}},
+      {"PRIMARY_KEYS": {"objektart": "cst_ticket", "statusnummer": 200}, "DATA": {"activity_enable_post_batch": 0, "activity_enable_post_interact": 0, "activity_wfstep_label": "", "cdb_module_id": "tr.webapp", "statusbemerk": "", "statusbez_cs": "", "statusbez_de": "Geschlossen", "statusbez_en": "Closed", "statusbez_es": "", "statusbez_fr": "", "statusbez_it": "", "statusbez_ja": "", "statusbez_ko": "", "statusbez_pl": "", "statusbez_pt": "", "statusbez_tr": "", "statusbez_zh": "", "statusbezeich": "closed", "statusfarbe": "CE_Success", "statusrelease": 0}},
+      {"PRIMARY_KEYS": {"objektart": "cst_ticket", "statusnummer": 300}, "DATA": {"activity_enable_post_batch": 0, "activity_enable_post_interact": 0, "activity_wfstep_label": "", "cdb_module_id": "tr.webapp", "statusbemerk": "", "statusbez_cs": "", "statusbez_de": "Abgelehnt", "statusbez_en": "Denied", "statusbez_es": "", "statusbez_fr": "", "statusbez_it": "", "statusbez_ja": "", "statusbez_ko": "", "statusbez_pl": "", "statusbez_pt": "", "statusbez_tr": "", "statusbez_zh": "", "statusbezeich": "denied", "statusfarbe": "CE_Danger", "statusrelease": 0}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cdbdd_field": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "pdx_person", "field_name": "license_site_id"}, "DATA": {"activity_enable_sys_posting": null, "activity_posting_label": null, "cdb_classname": "cdbdd_char_field", "cdb_iso_language_code": null, "cdb_module_id": "tr.webapp", "cdb_object_id": "b9afe5e0-17a3-11ec-918a-5254000ae2f5", "data_length": 40, "db_default": "", "db_not_null": 0, "description": null, "errmsg_regular_expression": null, "float_post_decimal": null, "gui_autodefined": 1, "is_mandatory": 0, "is_system": 0, "join_alias": null, "joined_classname": null, "joined_field_name": null, "label_cs": null, "label_de": "license_site_id", "label_en": null, "label_es": null, "label_fr": null, "label_it": null, "label_ja": null, "label_ko": null, "label_pl": null, "label_pt": null, "label_tr": null, "label_zh": null, "ma_cache_refresh": null, "ma_cache_strategy": null, "ma_source_data_att": null, "ma_source_map_key": null, "ma_source_relation": null, "ma_target_map_key": null, "multilang_field_name": "", "not_replicated": 0, "position": null, "pq_type": null, "predefined_field_clsname": null, "predefined_field_name": null, "ranking_fac": "descriptive", "regular_expression": null, "rest_visible": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

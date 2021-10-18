@@ -1,0 +1,28 @@
+{
+  "MODIFIED": {
+    "switch_tabelle": [
+      {
+        "MODIFICATIONS": {
+          "relation": {
+            "NEW_VALUE": "cs_variability_model_part", 
+            "OLD_VALUE": "cs_variability_model_part_v"
+          }
+        }, 
+        "PRIMARY_KEYS": {
+          "classname": "cs_variability_model_part"
+        }
+      }, 
+      {
+        "MODIFICATIONS": {
+          "relation": {
+            "NEW_VALUE": "cs_variant_part", 
+            "OLD_VALUE": "cs_variant_part_v"
+          }
+        }, 
+        "PRIMARY_KEYS": {
+          "classname": "cs_variant_part"
+        }
+      }
+    ]
+  }
+}

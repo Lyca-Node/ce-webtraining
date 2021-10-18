@@ -1,0 +1,342 @@
+{
+  "DELETED": {
+    "cdb_op_owner": [
+      {
+        "PRIMARY_KEYS": {
+          "classname": "bom_item", 
+          "name": "cdbvp_show_sap_condition", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "classname": "cdbvp_product", 
+          "name": "cdbvp_bom_comparison", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "classname": "cdbvp_product", 
+          "name": "cdbvp_filtered_bom", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "classname": "cdbvp_product", 
+          "name": "cdbvp_upload_csv_to_client", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "classname": "cdbvp_product", 
+          "name": "cdbvp_variant_bom_report", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "classname": "part", 
+          "name": "cdbvp_filtered_bom", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "classname": "part", 
+          "name": "cdbvp_reinstantiate_part", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "classname": "part", 
+          "name": "cdbvp_show_bom_item", 
+          "role_id": "public"
+        }
+      }
+    ], 
+    "cdb_rs_owner": [
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_bom2vpm", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_bom_item2cdbvp_bom_term", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_bom_item2cdbvp_predicate", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_bom_item2cdbvp_properties", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_ddh_enum_on_bom_item", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_ddh_prop_on_bom_item", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_maxbom_variant2part", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_part2bom_predicate", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_part2instantiations", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_part2instantiations2", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_part2max_bom", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_part2max_bom_product", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_part2var_siblings", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2all_bom_predicates", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2all_bom_prop_values", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2all_bom_terms", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2all_component", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2all_constraints", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2all_enum_def_prop_value", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2all_enum_defs", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2all_module_prop_mappings", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2all_predicates", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2all_properties", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2all_property_dependencies", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2all_property_values", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2all_terms", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2all_variant_mappings", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2all_variants", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2bom", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2constraints", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2ddhelper_prop_on_constraint", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2folder", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2folder_content", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2module_associations", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2parent_product", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2product", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2properties", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2root_properties", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2variants", 
+          "role_id": "public"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "cdbvp_product2view", 
+          "role_id": "public"
+        }
+      }
+    ], 
+    "cdb_tree_owner": [
+      {
+        "PRIMARY_KEYS": {
+          "id": "58c7edde-4732-11e1-98c0-001bfc744136", 
+          "role_id": "Administrator"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "id": "58c7edde-4732-11e1-98c0-001bfc744136", 
+          "role_id": "Katalogverwalter"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "id": "58c7edde-4732-11e1-98c0-001bfc744136", 
+          "role_id": "Merkmalskatalogverwalter"
+        }
+      }
+    ], 
+    "cdbxml_report_grant": [
+      {
+        "PRIMARY_KEYS": {
+          "name": "VPMBomComparison", 
+          "report_title": "VarSt\u00fccklistenvergleich", 
+          "subject_id": "public", 
+          "subject_type": "Common Role"
+        }
+      }, 
+      {
+        "PRIMARY_KEYS": {
+          "name": "VPMHierarchicalBOM", 
+          "report_title": "VarStrukturStueckliste", 
+          "subject_id": "public", 
+          "subject_type": "Common Role"
+        }
+      }
+    ]
+  }
+}

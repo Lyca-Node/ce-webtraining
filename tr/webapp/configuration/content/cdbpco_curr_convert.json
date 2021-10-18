@@ -1,0 +1,11 @@
+{
+  "cdbpco_curr_convert": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "2d19d040-735b-11ea-84ae-605718ab0986"}, "DATA": {"cdb_project_id": "", "convert_factor": 1.14, "from_curr_object_id": "021e2186-7312-11ea-84ae-605718ab0986", "to_curr_object_id": "cc95388c-6c9c-11df-8e74-d05fa2b39649", "valid_year": "", "validity_period_from": null, "validity_period_to": null}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a066933f-74c4-11ea-84ae-605718ab0986"}, "DATA": {"cdb_project_id": "", "convert_factor": 1.0, "from_curr_object_id": "021e2186-7312-11ea-84ae-605718ab0986", "to_curr_object_id": "c3fef935-6c9c-11df-8e74-d05fa2b39649", "valid_year": "", "validity_period_from": null, "validity_period_to": null}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a9770624-74c4-11ea-84ae-605718ab0986"}, "DATA": {"cdb_project_id": "", "convert_factor": 1.0, "from_curr_object_id": "0e3e1d0d-7312-11ea-84ae-605718ab0986", "to_curr_object_id": "cc95388c-6c9c-11df-8e74-d05fa2b39649", "valid_year": "", "validity_period_from": null, "validity_period_to": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

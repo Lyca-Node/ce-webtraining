@@ -1,0 +1,30 @@
+{
+  "MODIFIED": {
+    "cdbdd_field": [
+      {
+        "MODIFICATIONS": {
+          "db_default": {
+            "NEW_VALUE": null, 
+            "OLD_VALUE": "0"
+          }
+        }, 
+        "PRIMARY_KEYS": {
+          "classname": "bom_item", 
+          "field_name": "cdbvp_has_condition"
+        }
+      }, 
+      {
+        "MODIFICATIONS": {
+          "db_default": {
+            "NEW_VALUE": null, 
+            "OLD_VALUE": "'position'"
+          }
+        }, 
+        "PRIMARY_KEYS": {
+          "classname": "bom_item", 
+          "field_name": "cdbvp_positionstyp"
+        }
+      }
+    ]
+  }
+}

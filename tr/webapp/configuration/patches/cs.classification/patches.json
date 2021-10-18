@@ -1,0 +1,21 @@
+{
+  "MODIFIED": {
+    "cs_property_folder": [
+      {
+        "MODIFICATIONS": {
+          "name_de": {
+            "NEW_VALUE": "All", 
+            "OLD_VALUE": "Alle"
+          }, 
+          "name_en": {
+            "NEW_VALUE": "", 
+            "OLD_VALUE": "All"
+          }
+        }, 
+        "PRIMARY_KEYS": {
+          "cdb_object_id": "bd6c0540-dc7b-11e6-8c8d-28d24433bf35"
+        }
+      }
+    ]
+  }
+}

@@ -9,7 +9,7 @@
   "module": {
     "DATA": {
       "cdb_object_id": "90c3c777-1149-11ec-9180-5254000ae2f5", 
-      "master_config_checksum": "d41d8cd98f00b204e9800998ecf8427e", 
+      "master_config_checksum": "8ac799fa247408a23a29aa797c05208d", 
       "name": "Customer module", 
       "package": "tr.webapp"
     }, 

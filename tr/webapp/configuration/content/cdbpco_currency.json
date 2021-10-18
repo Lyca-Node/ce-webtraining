@@ -1,0 +1,10 @@
+{
+  "cdbpco_currency": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "021e2186-7312-11ea-84ae-605718ab0986"}, "DATA": {"is_ref_curr": 0, "name": "EUR", "schema_object_id": "31ab7bfe-5eba-11ea-84ad-605718ab0986", "symbol": "\u20ac"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0e3e1d0d-7312-11ea-84ae-605718ab0986"}, "DATA": {"is_ref_curr": 0, "name": "USD", "schema_object_id": "31ab7bfe-5eba-11ea-84ad-605718ab0986", "symbol": "$"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}
