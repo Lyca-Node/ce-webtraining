@@ -1,0 +1,23 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.platform": "15.5.20"
+    }
+  }, 
+  "dependencies": [], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "90c3c777-1149-11ec-9180-5254000ae2f5", 
+      "master_config_checksum": "d41d8cd98f00b204e9800998ecf8427e", 
+      "name": "Customer module", 
+      "package": "tr.webapp"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "tr.webapp"
+    }
+  }
+}

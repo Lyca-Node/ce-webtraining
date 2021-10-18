@@ -1,0 +1,13 @@
+setup.py
+tr/__init__.py
+tr.webapp.egg-info/PKG-INFO
+tr.webapp.egg-info/SOURCES.txt
+tr.webapp.egg-info/cdb_modules.txt
+tr.webapp.egg-info/cdb_services.txt
+tr.webapp.egg-info/dependency_links.txt
+tr.webapp.egg-info/docsets.txt
+tr.webapp.egg-info/namespace_packages.txt
+tr.webapp.egg-info/not-zip-safe
+tr.webapp.egg-info/requires.txt
+tr.webapp.egg-info/top_level.txt
+tr/webapp/__init__.py
