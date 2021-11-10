@@ -1,0 +1,36 @@
+
+.#{$componentNameSpace}-todo-list {
+    padding: 1em;
+
+    form > input {
+        padding: 0.5em 1em;
+        border: 2px solid lightgray;
+        margin: 1em;
+        width: 100%;
+
+        &:focus {
+            outline: none;
+            box-shadow: 0 0 4px 0 lightseagreen;
+            border-color: lightseagreen;
+        }
+    }
+}
+
+.#{$componentNameSpace}-item {
+    padding: 1em;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+
+    &.#{$componentNameSpace}-item--done {
+        text-decoration: line-through;
+        font-style: italic;
+        color: gray;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .cs-web-components-base-object-header__data-container-row {
+        flex-direction: column; 
+    }    
+}

@@ -1,3 +1,7 @@
 [
-    "tr/webapp/test/web/js"
+    "tr/webapp/test/web/js", 
+    "tr/webapp/webtraining/js", 
+    "tr/webapp/newapp/js", 
+    "tr/webapp/app2/js", 
+    "tr/webapp/app3/js"
 ]

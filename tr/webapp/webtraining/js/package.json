@@ -1,0 +1,17 @@
+{
+    "name": "tr-webapp-webtraining",
+    "version": "0.0.1",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "<unknown>",
+    "license": "UNLICENSED",
+    "private": true,
+    "dependencies": {
+        "chart.js": "^3.5.1",
+        "react-chartjs-2": "^3.1.0"
+    },
+    "devDependencies": {}
+}

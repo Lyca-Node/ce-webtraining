@@ -1,0 +1,28 @@
+{
+    "configuration": {
+        "name": "tr-webapp-newapp-MainComponent",
+        "components": {
+            "detail": {
+                "name": "cs-web-components-base-Outlet",
+                "properties": {
+                    "outletName": "selected_object"
+                },
+                "children": [
+                    {"name": "tr-webapp-newapp-MainComponent"}
+                ]
+            }
+        }
+    },
+    "setupFunctions": [
+        "cs.pcs.projects.web.cards.setup_project_default_card",
+        "cs.pcs.projects.web.setup_settings"
+    ],
+    "libraries": [
+        ["cs-pcs-common-web", "15.1.0"],
+        ["cs-objectdashboard-widgets", "15.1.0"],
+        ["cs-pcs-widgets", "15.1.0"],
+        ["tr-webapp-newapp", "0.0.1"],
+        ["chart.js", "3.5.1"],
+        ["cs-pcs-projects-web", "15.1.0"]
+      ]
+}

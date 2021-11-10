@@ -1,0 +1,10 @@
+{
+    "configuration": {
+        "name": "tr-webapp-app2-DialogTable"
+    },
+    "setupFunctions": [
+    ],
+    "libraries": [
+        ["tr-webapp-app2", "0.0.1"]
+      ]
+}

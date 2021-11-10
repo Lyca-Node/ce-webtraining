@@ -1,0 +1,24 @@
+
+.#{$componentNameSpace}-my-component {
+    font-size: 2em;
+    padding: 2em;
+
+    input {
+        color: $gray-lightest;
+        background: linear-gradient(to bottom, lighten($elements-primary, 60), $elements-primary);
+        border-radius: 0.5em;
+
+        &:focus {
+            box-shadow: 0 0 1em 0 $elements-primary;
+            border: 2px solid $elements-primary;
+        }
+    }
+}
+
+
+.#{$componentNameSpace}-todo-app {
+    display: flex;
+    flex-direction: column;
+    max-width: 600pt;
+    margin: auto;
+}

@@ -1,12 +1,3 @@
-# -*- mode: python; coding: utf-8 -*-
-#
-# Copyright (C) 1990 - 2016 CONTACT Software GmbH
-# All rights reserved.
-# http://www.contact.de/
-
-__docformat__ = "restructuredtext en"
-__revision__ = "$Id: main.py 142800 2016-06-17 12:53:51Z js $"
-
 import os
 
 from cdb import rte
@@ -17,7 +8,7 @@ from cs.platform.web.root import Root
 
 from cs.web.components.base.main import BaseApp
 from cs.web.components.base.main import BaseModel
-
+from cs.web.components.base.main import GLOBAL_CUSTOMIZATION_HOOK
 
 class WebApp(BaseApp):
     pass
@@ -37,6 +28,10 @@ def default_document_title(self, request):
 def _setup(self, request):
     request.app.include("tr-webapp-test-web", "0.0.1")
     return "tr-webapp-test-web-MainComponent"
+
+#@sig.connect(GLOBAL_CUSTOMIZATION_HOOK)
+#def _get_page(request):
+#    request.app.include("tr-webapp-test-web", "0.0.1")
 
 
 @WebApp.view(model=BaseModel, name="base_path", internal=True)
